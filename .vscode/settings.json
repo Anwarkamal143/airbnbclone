@@ -5,26 +5,34 @@
   "window.zoomLevel": 0,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "[typescript]": {
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    }
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.eslint": true
   },
-  "[typescriptreact]": {
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    }
-  },
-  "[javascript]": {
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    }
-  },
-  "[javascriptreact]": {
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    }
-  },
+  // "[typescript]": {
+  //   "editor.codeActionsOnSave": {
+  //     "source.organizeImports": true,
+  //     "source.fixAll.eslint": true
+  //   }
+  // },
+  // "[typescriptreact]": {
+  //   "editor.codeActionsOnSave": {
+  //     "source.organizeImports": true,
+  //     "source.fixAll.eslint": true
+  //   }
+  // },
+  // "[javascript]": {
+  //   "editor.codeActionsOnSave": {
+  //     "source.organizeImports": true,
+  //     "source.fixAll.eslint": true
+  //   }
+  // },
+  // "[javascriptreact]": {
+  //   "editor.codeActionsOnSave": {
+  //     "source.organizeImports": true,
+  //     "source.fixAll.eslint": true
+  //   }
+  // },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true
 }
