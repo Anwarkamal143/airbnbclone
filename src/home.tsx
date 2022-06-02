@@ -1,9 +1,5 @@
 import { ReactElement } from "react"
 
-interface Props {
-    className?: string
-}
-
-export default function home({ className }: Props): ReactElement {
+export default function home(): ReactElement {
     return <div>Hello</div>
 }

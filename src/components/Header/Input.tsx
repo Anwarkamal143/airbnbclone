@@ -1,10 +1,10 @@
 import { SearchIcon } from "@heroicons/react/solid"
 import { DetailedHTMLProps, InputHTMLAttributes, ReactElement } from "react"
 
-interface Props {
-    className?: string
-}
-type Iconvariants = "fas" | "far" | "fal" | "fad" | "fab"
+// interface Props {
+//     className?: string
+// }
+// type Iconvariants = "fas" | "far" | "fal" | "fad" | "fab"
 export type InputFieldProps = Exclude<
     DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>,
     "type"

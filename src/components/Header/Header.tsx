@@ -15,11 +15,8 @@ import "react-date-range/dist/theme/default.css" // theme css file
 import Input from "./Input"
 import Logo from "./Logo"
 import RightHeaderSection from "./RightHeaderSection"
-interface Props {
-    className?: string
-}
 
-export default function Header({ className }: Props): ReactElement {
+export default function Header(): ReactElement {
     const [searchInput, setSearchInput] = useState("")
     const [startDate, setStartDate] = useState(new Date())
     const [endDate, setEndDate] = useState(new Date())

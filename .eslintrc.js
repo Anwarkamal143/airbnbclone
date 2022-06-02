@@ -41,7 +41,7 @@ module.exports = {
         "jsx-a11y/click-events-have-key-events": "off",
         "react/no-unescaped-entities": "off",
         "@typescript-eslint/no-explicit-any": "off",
-        "@typescript-eslint/no-unused-vars": "off",
+        // "@typescript-eslint/no-unused-vars": "off",
         // "jsx-a11y/anchor-is-valid": [
         //     "error",
         //     {
