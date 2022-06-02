@@ -37,6 +37,11 @@ module.exports = {
         "@typescript-eslint/no-empty-interface": "off",
         "import/no-anonymous-default-export": "off",
         "@typescript-eslint/no-var-requires": "off",
+        "jsx-a11y/no-noninteractive-element-interactions": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "react/no-unescaped-entities": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-unused-vars": "off",
         // "jsx-a11y/anchor-is-valid": [
         //     "error",
         //     {
